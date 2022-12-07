@@ -1,0 +1,22 @@
+{
+  "name": "i-am-jokes",
+  "version": "0.0.1",
+  "description": "Twitter bot tweeting one programming jokes per day.",
+  "main": "./lib/server.js",
+  "scripts": {
+    "dev": "nodemon ./lib/server.js",
+    "start": "node ./lib/server.js"
+  },
+  "type": "module",
+  "author": "Adewale Adeyemi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "twitter-api-v2": "^1.12.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
